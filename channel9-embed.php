@@ -4,7 +4,7 @@ Plugin Name: Channel 9 Embed
 Plugin URI: https://github.com/blobaugh/WordPress-channel9-embed
 Description: Adds the ability to embed videos from http://channel9.msdn.com to the Embed services
 Author: Ben Lobaugh
-Version: 0.7
+Version: 0.7.1
 Author URI: http://ben.lobaugh.net
 */
 
