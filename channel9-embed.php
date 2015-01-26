@@ -12,7 +12,6 @@ wp_embed_register_handler( 'channel9_embed', '#http://channel9\.msdn\.com/(.*)#i
 
 function channel9_embed_handler( $matches, $attr, $url, $rawattr ) {
 		$matches[0] = set_url_scheme( $matches[0] );
-		echo $matches[0];
         $embed = '<iframe src="' . $matches[0] . '/player?w=512&h=288" width="512px" height="288px" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe>';
 		
 	return apply_filters( 'embed_channel9', $embed, $matches, $attr, $url, $rawattr );
