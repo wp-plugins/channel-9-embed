@@ -2,7 +2,7 @@
 Contributors: blobaugh
 Tags: Microsoft, Channel 9, Channel9, Embed, Embeds, oEmbed
 Requires at least: 3.3
-Tested up to: 3.9
+Tested up to: 4.1
 Stable tag: trunk
 
 Adds the ability to embed videos from http://channel9.msdn.com to the Embed services
@@ -39,5 +39,8 @@ may be relevant.
 
 == Changelog ==
 
+= 0.7 =
+* Will match the http/https protocol depending on the current site status regardless of
+	how the post author entered the url. This prevents insecure element warnings
 = 0.6 =
 * Initial release
